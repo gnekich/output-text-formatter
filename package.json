@@ -1,0 +1,36 @@
+{
+  "name": "output-text-formatter",
+  "version": "0.0.1",
+  "description": "Output-Text-Formatter - Library for formatting console output to match n(default: 80) character output, it can center text, add padding and so on...",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnekich/output-text-formatter"
+  },
+  "keywords": [
+    "console",
+    "output",
+    "text",
+    "formatter"
+  ],
+  "contributors": [
+    "Gordan Nekić <gordan@neki.ch>"
+  ],
+  "directories": {
+    "src": "src",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm run mocha-run-tests",
+    "mocha-run-tests": "mocha --timeout 20000 --recursive \"./tests/**/*.test.js\""
+  },
+  "author": "Gordan Nekić",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "figlet": "^1.5.2",
+    "lodash": "^4.17.21"
+  }
+}
